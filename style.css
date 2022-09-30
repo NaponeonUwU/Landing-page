@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #FFC27F;
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.cabeçalho-menu {
+    display: flex;
+    gap: 100px;
+}
+
+.cabeçalho-menu-item {
+    font-family: 'Roboto Mono', sans-serif;
+    color: #3b3632;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteúdo {
+    border-top: 0.4px solid   #3b3632;
+   
+    margin-bottom: 30px;
+}
+
+.conteúdo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteúdo-menu-item {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteúdo-menu-item-título{
+    font-family: 'Alkalami', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color:  #131211;
+}
+
+.conteúdo-menu-item-subtítulo {
+    font-family: 'Alkalami', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color:  #131211;
+}
+
+
+.conteúdo-menu-item-botão{
+    background-color: #fae8d7;
+    width: 185px;
+    height: 67px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Alkalami', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #3b3632;
+}
+
+.conteúdo-menu-item-botão:hover {
+background-color: rgba(185, 185, 185, 0.53);
+}
+
+.conteúdo-principal-imagem {
+    height: 430px;
+}
+
+.conteúdo-secundário {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 48px;
+}
+
+
+.conteúdo-secundário-título {
+    border-top: 0.4px solid #3b3632;
+    padding-top: 40px;
+    font-family: 'Alkalami', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.conteúdo-secundário-parágrafo {
+    font-family: 'Alkalami', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #131211;
+}
+
+
+.rodapé {
+    padding: 32px;
+    border-top: 0.4px solid   #3b3632;
+}
